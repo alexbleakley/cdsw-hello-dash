@@ -1,10 +1,23 @@
-**Dash Hello World**
+# Hello Dash for CDSW
 
-This app is a simple example of the capabilities of Dash developed by [Plotly](https://plot.ly/) and acts as an intro to overall Python framework. Further examples can be found at [dash/gallery/](plot.ly/dash/gallery).
+This is a very simple Dash example for Cloudera Data Science Workbench, based on https://github.com/plotly/dash-hello-world .
 
-Dash abstracts away all of the technologies and protocols required to build an interactive web-based application and is a simple and effective way to bind a user interface around your Python code.
+## Setup
 
-To learn more check out our [documentation](https://plot.ly/dash).
+Create a new CDSW project from this Git repository. In a CDSW Python session, run:
 
-The following are screenshots for the app in this repo:
-![Alt desc](https://github.com/plotly/dash-hello-world/raw/master/Screenshots/Dash-Hello-World-Photo.png)
+`!pip3 install -r requirments.txt`
+
+to install the pre-requisites.
+
+If forking from an existing CDSW project where these are already installed, no setup is required.
+
+## Launch app
+
+In a CDSW Python session, run app.py .
+
+Click the grid icon in the top right corner of the workbench, and select "Dash" from the dropdown.
+
+## Notes
+
+Tested on CDSW 1.4.3 .
